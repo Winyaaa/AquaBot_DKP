@@ -913,10 +913,25 @@
     transform: translateX(0);
   }
 
-  .chat-header h2 {
+  .brand {
+    gap: 0.5rem;
+  }
+
+  .brand-text {
+    white-space: nowrap;
+  }
+
+  .brand-text h1 {
     font-size: 1.1rem;
-    display: none;
-    /* Hide title on small screens to save space */
+  }
+
+  .brand-text p {
+    font-size: 0.75rem;
+  }
+
+  .chat-header h2 {
+    font-size: 0.95rem;
+    /* Tetap tampilkan tulisan dengan memperkecil ukurannya */
   }
 
   .header-actions {
