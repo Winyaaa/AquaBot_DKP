@@ -507,30 +507,7 @@ function App() {
           </button>
         </div>
 
-        <div className="whatsapp-card" style={{ marginTop: 'auto' }}>
-          <div style={{ marginBottom: '12px', paddingBottom: '0.8rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', color: 'var(--text-primary)', fontSize: '0.85rem', fontWeight: 'bold' }}>
-              <span style={{ color: '#25D366', display: 'flex' }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              </span>
-              Jam Layanan Live Chat
-            </div>
-            <p style={{ fontSize: '0.8rem', marginTop: '4px', opacity: 0.85 }}>Senin - Jumat (08.00 - 16.00 WIB)</p>
-          </div>
 
-          <p style={{ marginBottom: '10px' }}>Butuh bantuan spesifik atau ngobrol langsung dengan petugas?</p>
-          <a
-            href="https://wa.me/6282126170048?text=Halo%20Admin%20DKP%20Jawa%20Barat,%20mohon%20maaf%20mengganggu%20waktunya.%20Saya%20izin%20bertanya%20terkait%20informasi%20seputar%20kelautan%20dan%20perikanan.%20Terima%20kasih."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="whatsapp-btn"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
-            </svg>
-            Tanya Admin DKP
-          </a>
-        </div>
       </aside>
 
       {/* Main Chat Area */}

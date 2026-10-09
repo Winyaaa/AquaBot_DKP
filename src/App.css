@@ -241,47 +241,7 @@
   color: #ff4d4f;
 }
 
-.whatsapp-card {
-  margin-top: 1rem;
-  background: linear-gradient(135deg, rgba(37, 211, 102, 0.15), rgba(18, 140, 126, 0.15));
-  border: 1px solid rgba(37, 211, 102, 0.3);
-  padding: 1rem;
-  border-radius: 12px;
-  text-align: center;
-  flex-shrink: 0;
-}
 
-.whatsapp-card p {
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-  color: var(--text-primary);
-}
-
-.whatsapp-btn {
-  background: var(--wa-green);
-  color: #fff;
-  border: none;
-  padding: 0.75rem;
-  width: 100%;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  font-family: inherit;
-  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-}
-
-.whatsapp-btn:hover {
-  background: var(--wa-green-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
-}
 
 .main-chat {
   flex: 1;
