@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import logoDkp from './assets/logodkp.png';
 import './App.css';
 
-const apiKey = import.meta.env.VITEGEMINIAPIKEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 function App() {
