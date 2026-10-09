@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-marine: #0A192F;
+  /* Biru Tua Utama */
+  --secondary-marine: #112240;
+  /* Biru Tua Gradasi */
+  --accent-teal: #10B981;
+  /* Hijau (Aksen Utama) */
+  --accent-light: #38BDF8;
+  /* Biru Muda (Aksen Sekunder) */
+  --glass-bg: rgba(17, 34, 64, 0.45);
+  --glass-border: rgba(56, 189, 248, 0.15);
+  --text-primary: #F8FAFC;
+  --text-muted: #94A3B8;
+  --bot-msg-bg: rgba(16, 185, 129, 0.15);
+  /* Hijau transparan */
+  --user-msg-bg: rgba(56, 189, 248, 0.12);
+  /* Biru muda transparan */
+  --wa-green: #25d366;
+  --wa-green-hover: #128c7e;
+}
+
+:root[data-theme="light"] {
+  --primary-marine: #F0F9FF;
+  /* Biru Muda Sangat Pucat */
+  --secondary-marine: #E0F2FE;
+  /* Biru Muda Pucat */
+  --accent-teal: #059669;
+  /* Hijau (Lebih Gelap untuk Kontras) */
+  --accent-light: #0284C7;
+  /* Biru Tua (Aksen Sekunder) */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(2, 132, 199, 0.2);
+  --text-primary: #0F172A;
+  /* Biru Sangat Tua (Hampir Hitam) */
+  --text-muted: #475569;
+  --bot-msg-bg: rgba(5, 150, 105, 0.1);
+  --user-msg-bg: rgba(2, 132, 199, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease, background 0.5s ease, border-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: radial-gradient(circle at 50% 50%, var(--secondary-marine), var(--primary-marine));
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-light);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 180, 216, 0.6);
+  }
+
+  100% {
+    box-shadow: 0 0 10px rgba(0, 180, 216, 0.2);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
